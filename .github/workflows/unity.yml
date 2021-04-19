@@ -28,11 +28,6 @@ jobs:
         with:
           path: Library
           key: Library
-      
-      # Return License
-      - name: Return license
-        uses: game-ci/unity-return-license@v1
-        if: always()
 
       # Test
       - name: Run tests
